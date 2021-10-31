@@ -3,7 +3,7 @@ Retro Nintendo controller by css
 
 Inspired by retro Nintendo controller.
 
-Hands-on trial available on my [vercel deployed](https://retro-controller.vercel.app/) site and at [codepen](https://codepen.io/bhargavkadali39/pen/zYdEprR) .
+Hands-on trial available on my [vercel](https://retro-controller.vercel.app/) deployed site and at [codepen](https://codepen.io/bhargavkadali39/pen/zYdEprR) .
 
 Below is a demo video of the product
 
