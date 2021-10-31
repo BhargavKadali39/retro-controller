@@ -1,1 +1,115 @@
 
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: rgb(145, 123, 82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pop{
+    min-height: 50vh;
+    min-width: 100vh;
+    background-color: rgb(69, 78, 87);
+    box-shadow: -30px 30px 20px 0px rgb(21, 23, 36);
+    border-radius: 20px;
+    border: 5px solid rgb(151, 151, 151);
+    transform: rotate(-2deg);
+}
+
+.move{
+    position: absolute;
+    height: 10vh;
+    width: 30vh;
+    left: 5%;
+    top: 50%;
+    display: flex;
+    justify-items: flex-start;
+    background-color: rgb(190, 190, 190);
+    border-radius: 10px;
+}
+
+.move::before{
+    position: absolute;
+    content: "";
+    background: inherit;
+    height: 100%;
+    width: 100%;
+    transform: rotate(90deg);
+    border-radius: 10px;
+}
+.options button{
+    all: unset;
+}
+.options{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    height: 20px;
+    width: 15vh;
+    text-align: center;
+    border-radius: 6px;
+    background-color: rgb(162, 172, 197);
+}
+.options::after{
+    position: absolute;
+    content: "Select";
+    background: inherit;
+    height: 100%;
+    width: 100%;
+    top: 50px;
+    left: 0px;
+    border-radius: 6px;
+}
+button{
+    border-radius: 50%;
+}
+.as,.bs,.xs,.ys{
+    position: absolute;
+    transform: scale(2);
+    outline: none;
+    border: 0;
+}
+.ys{
+    background-color: rgb(0, 179, 60);
+    top: 55%;
+    left: 65%;
+}
+.ys:active{
+    background-color: rgba(0, 179, 60, 0.719);
+    box-shadow: -2px -2px 3px 4px inset rgb(0, 179, 60);
+}
+.xs{
+    top: 40%;
+    left: 75%;
+    background-color: rgb(0, 38, 255);
+}
+.xs:active{
+    background-color: rgba(21, 18, 228, 0.863);
+    box-shadow: -2px -2px 3px 4px inset rgb(0, 17, 255);
+}
+
+.as{
+    background-color: red;
+    top: 55%;
+    left: 87%;
+}
+.as:active{
+    background-color: rgba(255, 0, 0, 0.664);
+    box-shadow: -2px -2px 3px 4px inset red;
+}
+.bs{
+    background-color: yellow;
+    top: 70%;
+    left: 76%;
+}
+.bs:active{
+    background-color: rgba(255, 255, 0, 0.733);
+    box-shadow: -2px -2px 3px 4px inset yellow;
+}
