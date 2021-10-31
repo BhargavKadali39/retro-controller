@@ -56,6 +56,7 @@ main{
     text-align: center;
     border-radius: 6px;
     background-color: rgb(162, 172, 197);
+    transform: rotate(-30deg);
 }
 .options::after{
     position: absolute;
