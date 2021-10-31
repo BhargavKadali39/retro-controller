@@ -5,7 +5,7 @@ Inspired by retro Nintendo controller.
 
 Hands-on trial available on my [vercel](https://retro-controller.vercel.app/) deployed site and at [codepen](https://codepen.io/bhargavkadali39/pen/zYdEprR) .
 
-Below is a demo video of the product
+Below is a demo video of the finish product
 
 
 
