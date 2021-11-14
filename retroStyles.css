@@ -61,6 +61,7 @@ main{
     background-color: rgb(162, 172, 197);
     transform: rotate(-30deg);
     transition: all .2s cubic-bezier(0, -0.79, 0.09, 1.05);
+    cursor: pointer;
 }
 .options::after{
     position: absolute;
