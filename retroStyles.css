@@ -14,10 +14,6 @@ main{
     justify-content: center;
 }
 
-.controller{
-    cursor: crosshair;
-}
-
 .pop{
     min-height: 50vh;
     min-width: 100vh;
@@ -26,6 +22,7 @@ main{
     border-radius: 20px;
     border: 5px solid rgb(151, 151, 151);
     transform: rotate(-2deg);
+    cursor: crosshair;
 }
 
 .move{
