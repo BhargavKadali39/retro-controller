@@ -35,6 +35,7 @@ main{
     justify-items: flex-start;
     background-color: rgb(190, 190, 190);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .move::before{
